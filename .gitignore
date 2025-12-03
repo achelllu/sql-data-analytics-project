@@ -1,0 +1,46 @@
+# SQL/Data/Analytics .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# SQL Database & Output files
+*.bak
+*.db
+*.sqlite
+*.sql~
+*.log
+*.tmp
+*.temp
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Tableau files
+*.twb
+*.twbx
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code & Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# Environment and Dependency Folders/Files
+.env
+.venv/
+env/
+venv/
+Pipfile.lock
+
+# Mac/Linux
+*.swp
+
+# Datasets/output folders (optional: uncomment to ignore)
+# datasets/*
+# output/
